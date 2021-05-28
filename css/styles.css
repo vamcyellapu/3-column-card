@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: burlywood;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
