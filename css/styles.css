@@ -27,3 +27,28 @@ p {
   line-height: 2.5rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
+
+.btn {
+  padding: 1rem 2rem;
+  background: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  margin: 2rem;
+}
+
+.btn--primary {
+  color: #e28525;
+}
+.btn--secondary {
+  color: #016972;
+}
+
+.btn--third {
+  color: #00403f;
+}
+.btn:hover {
+  color: hsl(0, 0%, 95%);
+  background: none;
+  border: 2px solid hsl(0, 0%, 95%);
+}
